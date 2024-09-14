@@ -1,6 +1,6 @@
 import pyfirmata2
 
-board = pyfirmata2.Arduino('COM3')
+board = pyfirmata2.Arduino('COM7')
 
 STRING_SYSEX_COMMAND = 0x27
 
