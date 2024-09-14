@@ -1,3 +1,4 @@
 /display.py
 /i2c_lib.py
 /lcddriver.py
+/test.py

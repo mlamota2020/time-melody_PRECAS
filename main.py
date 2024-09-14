@@ -27,7 +27,7 @@ output_stream = p.open(
 print('detected\nreading and writing microphone...')
 
 t_h = 19
-t_m = 30
+t_m = 58
 t_s = 00
 pygame.mixer.music.load("C:\\Users\\inval\\OneDrive\\Documentos\\Audacity\\BEAM - PDF.wav") # Reemplazar
 
@@ -45,10 +45,10 @@ while True:
         for x in range(0, 4):
             board.digital[13].write(1)
             print('1')
-            time.sleep(1)
+            time.sleep(0.100)
             board.digital[13].write(0)
             print('0')
-            time.sleep(1)
+            time.sleep(0.100)
 
 
     time.sleep(1)
